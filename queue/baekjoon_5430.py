@@ -20,12 +20,14 @@ for i in range(T):
         elif k == 'D':
             if len(x) > 0 :
                 if cnt % 2 == 0:
-                x.popleft()
+                    x.popleft()
+                else:
+                    x.pop()
             else:
                 print('error')
                 break
-        if cnt % 2 != 0:
-            x.reverse();
+    if cnt % 2 != 0:
+        x.reverse();
     if len(x) > 0:
         print('[',end='')
         for j in range(len(x)):
