@@ -7,4 +7,4 @@ if N != 1:
         cnt += 1
         if N <= A:
             break
-print(cnt)
+print(cnt) 
