@@ -1,6 +1,4 @@
-
 import math
-print(math.ceil(1 / 3))
 T = int(input()) #테스트케이스
 
 for i in range(T):
