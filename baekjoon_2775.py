@@ -1,6 +1,6 @@
 testCase = int(input())#테스트케이스
 
-for T in range(testCase + 1):
+for T in range(testCase):
     floor = int(input()) #층
     room = int(input()) #호
     zeroFloor = [] #0층
